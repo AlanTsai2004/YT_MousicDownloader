@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YT音樂下載器</title>
+  <link rel='stylesheet' href='/Style/Header.css' />
+  <link rel="stylesheet" href="/Style/MainContent.css">
+  <link rel="shortcut icon" href="/Resourses/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="header">
+    <img src='/Resourses/logo.png' draggable="false" />
+    <h1></h1>
+  </div>
+
+  <div class='Maincontainer'>
+    <div class='MainContentUP'>
+      <div class='MainContent_up'>
+        <img src='/Resourses/mainlogo.png' draggable="false" />
+        <div>
+          <h1>YT音樂下載器</h1>
+          <p>支援下載YouTube網站音樂</p>
+        </div>
+      </div>
+      <div class='MainContent_down'>
+        <input type='text' placeholder='請輸入影片網址' id="urlinput" />
+        <div class='ControlPanel'>
+          {{!-- <div id="progessbar">
+            <div id="progessbar_inner"></div>
+          </div> --}}
+          <div id='downloadmp3btn'>
+            下載MP3
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="/handleurl.js"></script>
+
+</html>
